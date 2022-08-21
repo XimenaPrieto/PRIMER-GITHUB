@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Text:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
+@import "fuentes";
+
 .topheader{
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
     position: fixed;
@@ -65,8 +67,7 @@
         pointer-events: none;
         transition: opacity 0.3s;
     }
-
-
+    
     .menu li{
         padding: 0;
     }
@@ -188,10 +189,6 @@
         
     }
 
-
-
-
-
 /*--------Areas-------------*/
 .Areas{
     font-size: 30px;
@@ -251,15 +248,6 @@
     
 }
 
-html{
-    --theme-color: white; 
-    --primary-color: #B03A2E; 
-    --secunday-color: #2E4053;
-    --text-color: #17202A;
-    --text-color-inverse: #A93226;
-    --menu-mobile-back-ground-color:  #EAEDED; 
-    --navbar-shallow-color: #e5e5e5; 
-}
 body{
     font-family: sans-serif;
     background-color: var(--theme-color);
@@ -292,10 +280,25 @@ a{
     }
 
 }
+
+/*------------servicios----------------*/
+
+.DiseñoSST{
+  display: grid;
+  padding: 1em;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  gap: 1em;
+}
+
+.DiseñoSST div{
+  background-color: #902200;
+  color: #e5e5e5;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.DiseñoSST div:hover{
+  border: 5px solid  #EAEDED;
+}
     
-.R_Medica {
-    color: var(--primary-colo);
-    background-color: var(--menu-mobile-back-ground-color);
-    font-family: sans-serif;
-    background-color: #2E4053;
-  }
