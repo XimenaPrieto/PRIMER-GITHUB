@@ -119,6 +119,8 @@ html {
   .imgDerecho {
     width: 100%;
     max-width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
   }
   .Parrafo_GMA {
     font-size: 20px;
@@ -129,7 +131,7 @@ html {
     text-align: justify;
     justify-content: space-between;
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 0px;
   }
   .GMA {
@@ -225,6 +227,8 @@ html {
 
 .multimedia {
   width: 100%;
+  max-width: 100%;
+  margin-left: 30px;
 }
 
 body {
